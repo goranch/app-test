@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="movie_grid_item_width">150dp</dimen>
+
+    <dimen name="medium_padding">8dp</dimen>
+    <dimen name="search_rounded_corner">16dp</dimen>
+</resources>
