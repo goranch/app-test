@@ -2,7 +2,7 @@ package com.example.skytest.di
 
 import com.example.skytest.data.repository.MovieRepositoryImpl
 import com.example.skytest.data.repository.MovieService
-import com.example.skytest.data.repository.IMovieRepository
+import com.example.skytest.domain.IMovieRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,6 +1,7 @@
 package com.example.skytest.data.repository
 
 import com.example.skytest.data.model.ApiMovieItem
+import com.example.skytest.domain.IMovieRepository
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext

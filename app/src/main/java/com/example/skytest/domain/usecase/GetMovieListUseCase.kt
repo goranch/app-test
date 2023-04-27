@@ -1,6 +1,6 @@
 package com.example.skytest.domain.usecase
 
-import com.example.skytest.data.repository.IMovieRepository
+import com.example.skytest.domain.IMovieRepository
 import com.example.skytest.domain.model.Movie
 import com.example.skytest.domain.mapper.mapToDomain
 import com.example.skytest.domain.usecase.type.UseCaseOut

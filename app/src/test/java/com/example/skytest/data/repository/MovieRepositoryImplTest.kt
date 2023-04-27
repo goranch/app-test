@@ -2,6 +2,7 @@ package com.example.skytest.data.repository
 
 import com.example.skytest.MainCoroutineRule
 import com.example.skytest.data.model.ApiMovieItem
+import com.example.skytest.domain.IMovieRepository
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.impl.annotations.MockK

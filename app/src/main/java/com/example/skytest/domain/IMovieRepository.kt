@@ -1,4 +1,4 @@
-package com.example.skytest.data.repository
+package com.example.skytest.domain
 
 import com.example.skytest.data.model.ApiMovieItem
 import retrofit2.Response
