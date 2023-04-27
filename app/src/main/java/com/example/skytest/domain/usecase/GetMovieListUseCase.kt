@@ -12,7 +12,7 @@ class GetMovieListUseCase @Inject constructor(
 
     override val block: suspend () -> List<Movie> = {
 
-        repository.getMovies().body().mapToDomain()
+        repository.getMovies().mapToDomain()
     }
 }
 

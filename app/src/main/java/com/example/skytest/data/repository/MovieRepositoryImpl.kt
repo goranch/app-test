@@ -11,6 +11,6 @@ class MovieRepositoryImpl @Inject constructor(
     private val service: MovieService,
     private val ioDispatcher: CoroutineDispatcher
 ) : IMovieRepository {
-    override suspend fun getMovies(): Response<List<ApiMovieItem>> =
+    override suspend fun getMovies(): List<ApiMovieItem> =
         withContext(ioDispatcher) { service.getMovies() }
 }

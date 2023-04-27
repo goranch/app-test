@@ -13,8 +13,6 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
-import retrofit2.Response
-
 @ExperimentalCoroutinesApi
 class MovieRepositoryImplTest {
     @ExperimentalCoroutinesApi
@@ -36,7 +34,7 @@ class MovieRepositoryImplTest {
     @Test
     fun `Test getMovies will call the service`() = runTest {
         // Given
-        coEvery { service.getMovies() } returns Response.success(mockMovieItems)
+        coEvery { service.getMovies() } returns mockMovieItems
 
         // When
         cut.getMovies()
